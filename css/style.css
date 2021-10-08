@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* header navigations start here */
+
+.header-navigations {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.header-navs ul {
+    display: flex;
+}
+
+.header-navs ul li {
+    padding: 0px 10px;
+    font-weight: 600;
+}
+
+.icons {
+    font-size: 35px !important;
+    padding-right: 16px;
+}
+
+.header-navs ul li:hover {
+    color: #ff6600;
+}
+
+.header-menus {
+    display: none;
+}
+
+.header-menu {
+    display: none;
+}
+
+.header-menu-open {
+    display: block;
+}
+
+.header-menu-close {
+    display: none;
+}
+
+.open-menu {
+    display: none;
+}
+
+.close-menu {
+    display: block !important;
+}
+
+.header-social a {
+    padding: 0px 6px;
+}
+
+
+/* header navigations ends here */
+
+
+/* hero-section-start here */
+
+.hero-section {
+    background-image: url(../images/hero/4.jpg);
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100%;
+}
+
+.hero-content {
+    /* width: 90%; */
+    /* height: 100%; */
+    text-align: center;
+    color: #fff;
+    padding: 250px 50px 0px;
+    line-height: 60px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.hero-content h1 {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.targeted-man {
+    color: #ff6600;
+}
+
+.targeted-man::before {
+    content: '';
+    animation: animate infinite 9s;
+}
+
+@keyframes animate {
+    0% {
+        content: 'Welcome';
+    }
+    30% {
+        content: 'Celebrate';
+    }
+    60% {
+        content: 'Appriciate';
+    }
+    75% {
+        content: 'Recognise';
+    }
+    100% {
+        content: 'Want';
+    }
+}
+
+
+/* hero-section-ends here */
+
+
+/* about mopgom youth start here */
+
+.about-mopgom {
+    padding: 160px 70px 30px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-img {
+    width: 230%;
+    position: relative;
+    top: -120px;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-title {
+    margin-left: 28em;
+    margin-bottom: 30px;
+    line-height: 44px;
+}
+
+.about-title h4 {
+    color: #ff6600;
+    font-size: 23px;
+}
+
+.about-text {
+    display: flex;
+}
+
+.about-text p {
+    font-weight: 600;
+    line-height: 30px;
+    width: 95%;
+}
+
+.text-one {
+    padding: 50px 0px 20px 50px;
+}
+
+.text-two {
+    padding: 50px 0px 20px 50px;
+}
+
+
+/* about mopgom youth ends here */
+
+
+/* program-section-start here */
+
+.program-section {
+    padding: 165px 50px 80px;
+    background: #f6f6f6;
+}
+
+.program-section-title {
+    text-align: center;
+    background-image: url(../images/logo/section.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 35px;
+    width: 20%;
+    margin: 20px auto 40px;
+    background-size: contain;
+}
+
+.program-section-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.program-section-title h4 {
+    color: #ff6600;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.program-section-title h2 {
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.program-img a {
+    position: relative;
+    display: block;
+}
+
+.program-img>a::before {
+    background: #4a4b4c none repeat scroll 0 0;
+    content: "";
+    height: 16em;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: .3s;
+    transform: scale(0);
+    border-radius: 5px;
+}
+
+.program-wrapper:hover .program-img a::before {
+    opacity: 0.7;
+    transform: scale(1);
+}
+
+.program-img-container {
+    width: 30%;
+    height: auto;
+}
+
+.program-img {
+    position: relative;
+}
+
+.program-img img {
+    width: 100%;
+    height: 16em;
+    border-radius: 5px;
+}
+
+.program-text {
+    bottom: 0;
+    padding-bottom: 20px;
+    position: absolute;
+    transition: .3s;
+    opacity: 0;
+}
+
+.program-wrapper:hover .program-text {
+    margin-left: 20px;
+    opacity: 1;
+}
+
+.program-text h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.program-text h4 a {
+    color: #ffffff;
+    transition: .3s;
+}
+
+.program-text span {
+    color: #fff;
+}
+
+
+/* program-section-ends here */
+
+
+/*join-us-section start here */
+
+.join-us {
+    background-image: url(../images/join-us/1.jpg);
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 22em;
+}
+
+.join-us-content {
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    padding: 160px 0px 0px;
+}
+
+.join-us-content h2 {
+    font-size: 40px;
+}
+
+.join-us-content button {
+    font-weight: bold;
+    padding: 10px 30px;
+    background: transparent;
+    color: #fff;
+    font-size: 17px;
+    border: 1px solid #fff;
+}
+
+.join-us-content button:hover {
+    background: #ffffff;
+    color: #000;
+    border: 1px solid #fff;
+}
+
+
+/* join-us-section ends here */
+
+
+/* footer-start-here */
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 100px 80px;
+    background: #fff;
+}
+
+.footer-content {
+    width: 30%;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.footer-content ul {
+    margin-top: 15px;
+}
+
+.footer-content ul li:hover {
+    color: #ff6600;
+}
+
+.footer-content ul li i {
+    color: #ff6600;
+}
+
+.footer-content p {
+    margin-top: 15px;
+}
+
+
+/* footer-end-here */
+
+
+/* copywrite start here */
+
+.copywrite {
+    background: #e9e9e9;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    color: #666666;
+    font-size: 15px;
+}
+
+
+/* copywrite ends here */

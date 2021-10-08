@@ -1,0 +1,136 @@
+            @media only screen and (max-width:1023px) {
+                /* headers start here */
+                .contact-header {
+                    display: none;
+                }
+                .header-social {
+                    display: none;
+                }
+                .header-navs {
+                    display: none;
+                }
+                .header-navigations {
+                    justify-content: space-between;
+                }
+                .header-menus {
+                    display: block;
+                }
+                .header-navs ul {
+                    flex-direction: column;
+                    background: #000;
+                    /* width: 90%; */
+                    margin: 0 auto;
+                    padding: 0;
+                }
+                .header-navs ul li {
+                    border-bottom: 2px dotted;
+                    letter-spacing: 5px;
+                }
+                .header-navs-show {
+                    top: 1em;
+                    transform: rotateX( 45deg);
+                    transition: 4s;
+                    background: #fff;
+                    width: 100%;
+                    height: 36em;
+                    line-height: 113px;
+                    text-align: center;
+                    position: absolute;
+                    /* border: 1px solid rebeccapurple; */
+                    z-index: 1;
+                    color: #fff;
+                    box-shadow: 0 0 31px 22.7px rgb(0 0 0 / 20%);
+                }
+                /* header ends here */
+                /* hero-section-start here */
+                .hero-content {
+                    padding: 80px 13px 0px;
+                    line-height: 39px;
+                }
+                .hero-content h1 {
+                    font-size: 30px;
+                    line-height: 45px;
+                }
+                .hero-content p {
+                    margin-top: 35px;
+                    padding-bottom: 30px;
+                }
+                .hero-section {
+                    height: 30em;
+                }
+                /* hero-section-start here */
+                /* about-mopgom youth start here */
+                .about-mopgom {
+                    padding: 100px 0px 40px;
+                }
+                .about-container {
+                    flex-direction: column;
+                }
+                .about-text {
+                    flex-direction: column;
+                }
+                .about-img img {
+                    width: 100%;
+                }
+                .about-img {
+                    width: 100%;
+                    top: 0px;
+                }
+                .about-title {
+                    text-align: center;
+                    margin-bottom: 27px;
+                    margin-left: 0px;
+                }
+                .text-one {
+                    padding: 50px 20px 10px 16px;
+                }
+                .text-two {
+                    padding: 50px 20px 10px 16px;
+                }
+                /* about-mopgom youth start here */
+                /* program-section start here */
+                .program-section-title {
+                    width: 100%;
+                }
+                .program-section {
+                    padding: 90px 10px 80px;
+                }
+                .program-section-content {
+                    flex-direction: column;
+                }
+                .program-img-container {
+                    width: 100%;
+                    height: auto;
+                    margin-top: 50px;
+                }
+                .another-program-img {
+                    display: none;
+                }
+                /* program-section-ends here */
+                /* join-us-section-start-here */
+                .join-us-content {
+                    line-height: 39px;
+                    padding: 100px 0px 0px;
+                }
+                .join-us-content h2 {
+                    font-size: 26px;
+                }
+                .join-us-content p {
+                    font-weight: 600;
+                }
+                .join-us-content button {
+                    margin-top: 25px;
+                }
+                /* join-us-section-ends-here */
+                /* footer-section start here */
+                .footer-container {
+                    flex-direction: column;
+                    padding: 50px 10px 80px;
+                }
+                .footer-content {
+                    width: 100%;
+                    margin-top: 30px;
+                    text-align: left;
+                }
+                /* footer-section-end here */
+            }
